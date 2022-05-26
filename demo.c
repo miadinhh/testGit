@@ -3,9 +3,7 @@
 int main()
 {
     printf("Hello F-Code:\n");
-    f1();
-    f2();
-    f3();
-    f4();
+    printf("alo 123");
+    printf("em chinh roi ne");
     return 0;
 }
