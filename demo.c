@@ -1,11 +1,16 @@
 #include <stdio.h>
 
+int div(int x, int y) {
+printf ("Enter number: ");
+scanf ("%d%d", &x, &y);
+
+int res = x - y;
+printf ("Total = %d ", res);
+}
+
+
 int main()
 {
-    printf("Hello F-Code:\n");
-    f1();
-    f2();
-    f3();
-    f4();
+    div();
     return 0;
 }
